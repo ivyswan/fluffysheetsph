@@ -1,0 +1,59 @@
+[20-Feb-2021 14:29:23 UTC] WordPress database error Table 'ivyswavu_fluffy.wp_woocommerce_sessions' doesn't exist for query SELECT session_value FROM wp_woocommerce_sessions WHERE session_key = '1' made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, wc_load_cart, WooCommerce->initialize_session, WC_Session_Handler->init, WC_Session_Handler->init_session_cookie, WC_Session_Handler->get_session_data, WC_Session_Handler->get_session
+[20-Feb-2021 14:29:23 UTC] WordPress database error Table 'ivyswavu_fluffy.wp_wc_webhooks' doesn't exist for query SELECT webhook_id
+				FROM wp_wc_webhooks
+				WHERE 1=1
+				AND `status` = 'active'
+				
+				
+				
+				
+				
+				ORDER BY webhook_id DESC made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WooCommerce->init, WooCommerce->load_webhooks, wc_load_webhooks, WC_Data_Store->__call, WC_Webhook_Data_Store->get_webhooks_ids, WC_Webhook_Data_Store->search_webhooks
+[20-Feb-2021 14:29:23 UTC] WordPress database error Table 'ivyswavu_fluffy.wp_woocommerce_attribute_taxonomies' doesn't exist for query SELECT * FROM wp_woocommerce_attribute_taxonomies WHERE attribute_name != '' ORDER BY attribute_name ASC; made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, WC_Post_Types::register_taxonomies, wc_get_attribute_taxonomies
+[20-Feb-2021 14:29:38 UTC] Astra: Migrating Background Option - footer-adv-bg-obj
+[20-Feb-2021 14:29:38 UTC] Astra: Migrating Background Option - footer-bg-obj
+[20-Feb-2021 14:29:39 UTC] Astra: Migrating Background Response Option - site-layout-outside-bg-obj-responsive
+[21-Feb-2021 12:49:30 UTC] Astra: Migrating Background Option - footer-adv-bg-obj
+[21-Feb-2021 12:49:30 UTC] Astra: Migrating Background Option - footer-bg-obj
+[21-Feb-2021 12:49:30 UTC] Astra: Migrating Background Option - sidebar-bg-obj
+[21-Feb-2021 12:49:31 UTC] Astra: Migrating Background Response Option - site-layout-outside-bg-obj-responsive
+[21-Feb-2021 12:49:31 UTC] Astra: Migrating Background Response Option - header-bg-obj-responsive
+[21-Feb-2021 12:49:31 UTC] Astra: Migrating Background Response Option - primary-menu-bg-obj-responsive
+[21-Feb-2021 12:49:31 UTC] Astra: Migrating Background Response Option - above-header-bg-obj-responsive
+[21-Feb-2021 12:49:31 UTC] Astra: Migrating Background Response Option - above-header-menu-bg-obj-responsive
+[21-Feb-2021 12:49:31 UTC] Astra: Migrating Background Response Option - below-header-bg-obj-responsive
+[21-Feb-2021 12:55:11 UTC] Astra: Migrating Background Option - footer-adv-bg-obj
+[21-Feb-2021 12:55:11 UTC] Astra: Migrating Background Option - footer-bg-obj
+[21-Feb-2021 12:55:11 UTC] Astra: Migrating Background Response Option - site-layout-outside-bg-obj-responsive
+[21-Feb-2021 12:55:43 UTC] Astra: Migrating Background Option - footer-adv-bg-obj
+[21-Feb-2021 12:55:43 UTC] Astra: Migrating Background Option - footer-bg-obj
+[21-Feb-2021 12:55:43 UTC] Astra: Migrating Background Response Option - site-layout-outside-bg-obj-responsive
+[21-Feb-2021 13:02:57 UTC] Astra: Migrating Background Option - footer-adv-bg-obj
+[21-Feb-2021 13:02:57 UTC] Astra: Migrating Background Option - footer-bg-obj
+[21-Feb-2021 13:02:57 UTC] Astra: Migrating Background Response Option - site-layout-outside-bg-obj-responsive
+[25-Feb-2021 17:26:04 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query CREATE TABLE `wp_cli_cookie_scan_cookies`(
+			    `id_cli_cookie_scan_cookies` INT NOT NULL AUTO_INCREMENT,
+			    `id_cli_cookie_scan` INT NOT NULL DEFAULT '0',
+			    `id_cli_cookie_scan_url` INT NOT NULL DEFAULT '0',
+			    `cookie_id` VARCHAR(255) NOT NULL,
+			    `expiry` VARCHAR(255) NOT NULL,
+			    `type` VARCHAR(255) NOT NULL,
+			    `category` VARCHAR(255) NOT NULL,
+                `category_id` INT NOT NULL,
+                `description` TEXT NULL DEFAULT '',
+			    PRIMARY KEY(`id_cli_cookie_scan_cookies`),
+			    UNIQUE `cookie` (`id_cli_cookie_scan`, `cookie_id`)
+            ) DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci made by activate_plugin, do_action('activate_cookie-law-info/cookie-law-info.php'), WP_Hook->do_action, WP_Hook->apply_filters, Cookie_Law_Info_Cookie_Scaner->activator, Cookie_Law_Info_Cookie_Scaner->install_tables, Cookie_Law_Info_Cookie_Scaner->insert_scanner_tables, dbDelta
+[25-Feb-2021 17:26:04 UTC] WordPress database error Specified key was too long; max key length is 1000 bytes for query CREATE TABLE `wp_cli_cookie_scan_cookies`(
+			    `id_cli_cookie_scan_cookies` INT NOT NULL AUTO_INCREMENT,
+			    `id_cli_cookie_scan` INT NOT NULL DEFAULT '0',
+			    `id_cli_cookie_scan_url` INT NOT NULL DEFAULT '0',
+			    `cookie_id` VARCHAR(255) NOT NULL,
+			    `expiry` VARCHAR(255) NOT NULL,
+			    `type` VARCHAR(255) NOT NULL,
+			    `category` VARCHAR(255) NOT NULL,
+                `category_id` INT NOT NULL,
+                `description` TEXT NULL DEFAULT '',
+			    PRIMARY KEY(`id_cli_cookie_scan_cookies`),
+			    UNIQUE `cookie` (`id_cli_cookie_scan`, `cookie_id`)
+            )  made by activate_plugin, do_action('activate_cookie-law-info/cookie-law-info.php'), WP_Hook->do_action, WP_Hook->apply_filters, Cookie_Law_Info_Cookie_Scaner->activator, Cookie_Law_Info_Cookie_Scaner->install_tables, Cookie_Law_Info_Cookie_Scaner->insert_scanner_tables, Cookie_Law_Info_Cookie_Scaner->insert_scanner_tables, dbDelta
